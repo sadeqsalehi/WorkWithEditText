@@ -14,7 +14,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
         android:inputType="text"
         android:maxLength="4"
+        android:hint="Your Name"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="18sp"
+
+
          />
 </android.support.constraint.ConstraintLayout>
